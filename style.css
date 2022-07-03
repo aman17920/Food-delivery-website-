@@ -83,3 +83,11 @@
     border: 1px solid #FFB703;
 border-radius: 20px;
 }
+.ourmenutext{
+    font-family: 'Rambla';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+color: #FFB703;
+}
