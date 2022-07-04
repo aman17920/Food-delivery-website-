@@ -1,8 +1,8 @@
 
-var rect = $('#container')[0].getBoundingClientRect();
+var rect = $('#containerbox')[0].getBoundingClientRect();
 var mouse = {x: 0, y: 0, moved: false};
 
-$("#container").mousemove(function(e) {
+$("#containerbox").mousemove(function(e) {
   mouse.moved = true;
   mouse.x = e.clientX - rect.left;
   mouse.y = e.clientY - rect.top;
@@ -12,7 +12,7 @@ $("#container").mousemove(function(e) {
 TweenLite.ticker.addEventListener('tick', function(){
   if (mouse.moved){    
     parallaxIt(".slide", -100);
-    parallaxIt("img", -30);
+    parallaxIt(".topelem", -30);
   }
   mouse.moved = false;
 });
@@ -25,7 +25,10 @@ function parallaxIt(target, movement) {
 }
 
 $(window).on('resize scroll', function(){
-  rect = $('#container')[0].getBoundingClientRect();
+  rect = $('#containerbox')[0].getBoundingClientRect();
+
+
+  
 })
   var swiper = new Swiper('.mySwiper', {
     // Default parameters
@@ -64,3 +67,43 @@ $(window).on('resize scroll', function(){
 
 
 
+//curser//
+
+
+
+
+var cursor = document.querySelector('.cursor');
+var cursorinner = document.querySelector('.cursor2');
+var a = document.querySelectorAll('a');
+
+document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+});
+
+document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + 'px';
+  cursorinner.style.top = y + 'px';
+});
+
+document.addEventListener('mousedown', function(){
+  cursor.classList.add('click');
+  cursorinner.classList.add('cursorinnerhover')
+});
+
+document.addEventListener('mouseup', function(){
+  cursor.classList.remove('click')
+  cursorinner.classList.remove('cursorinnerhover')
+});
+
+a.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+  });
+})
