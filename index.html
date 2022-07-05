@@ -1,221 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-</head>
-<body>
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Rambla:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="images/logo.png" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#"><img src="images/searchIcon.svg" alt=""></a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#"><img src="images/cartIcon.svg" alt=""></a>
-                    </li>
-                </ul>
-                <!-- <form class="d-flex">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"
+                ><img src="images/searchIcon.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"
+                ><img src="images/cartIcon.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form> -->
-            </div>
         </div>
+      </div>
     </nav>
     <div class="container">
-    <div class="row herosection">
-        <div class="col-md-5 ">
-            <h2 class="herotext">The Joy Of
-                Getting Best</h2>
-            <p  class="paragraphtext">Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry. Lorem Ipsum hasbeen
-                the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen
-                book. It has survived not only five centuries, but
-                </p>
-                <button class="orderbtn">Order Now</button>
-                <button class="viewdetailbtn">View More</button>
-                <!-- <img class="pizza" src="images/pizza.png" alt=""> -->
+      <div class="row herosection">
+        <div class="col-md-5">
+          <h2 class="herotext">The Joy Of Getting Best</h2>
+          <p class="topparagraphtext">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum hasbeen the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but
+          </p>
+          <button class="orderbtn">Order Now</button>
+          <button class="viewdetailbtn">View More</button>
+          <!-- <img class="pizza" src="images/pizza.png" alt=""> -->
         </div>
-        <div  class="col-md-7">
-    <img id="containerbox" src="images/heroimg.png" alt="" width="100%">
-    <img  class="topelem pizza" id="containerbox" src="images/pizza.png" alt="">
-    <img  class="topelem burger" id="containerbox" src="images/topelem.png" alt="">
-    <img  class="topelem topshapes" id="containerbox" src="images/topshapes.svg" alt="">
-</div>
-<div class="container">
-            <h2 class="ourmenutext text-center mt-100">Our Menu</h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"> <img class="dish" src="images/dish.png" alt="">
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$99  
-                        </h2>
-                    </div>
-                 </div>
-                 <div class="swiper-slide"> <img  src="images/dish.png" alt="">  
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$66  
-                        </h2>
-                    </div>
-                </div>
-                <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$77  
-                        </h2>
-                    </div></div>
-                    <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img  src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$339  
-                        </h2>
-                    </div> </div>
-                    <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img  src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$88  
-                        </h2>
-                    </div></div>
-                    <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img  src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$88  
-                        </h2>
-                    </div></div>
-                  <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$88  
-                        </h2>
-                    </div></div>
-                  <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$88  
-                        </h2>
-                    </div></div>
-                  <div class="swiper-slide"> <img  src="images/dish.png" alt=""> 
-                    <div class="fooddeatil">
-                        <h2 class="foodname">Pizza</h2>
-                        <img src="images/raitingicons.png" alt="">
-                        <h2 class="price">
-                            Price -$88  
-                        </h2>
-                    </div></div>
-                </div>
-                <div class="navigationslider">  
-                    <div class="swiper-button-prev">
-                        <img src="images/leftslidenav.png" alt="">
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="images/rightslidenav.png" alt="">
-                    </div>
-                </div>
+        <div class="col-md-7">
+          <img id="containerbox" src="images/heroimg.png" alt="" width="100%" />
+          <img
+            class="topelem pizza"
+            id="containerbox"
+            src="images/pizza.png"
+            alt=""
+          />
+          <img
+            class="topelem burger"
+            id="containerbox"
+            src="images/topelem.png"
+            alt=""
+          />
+          <img
+            class="topshapes"
+            id="containerbox"
+            src="images/topshapes.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="ourmenutext text-center mt-100">Our Menu</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="dish" src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$99</h2>
               </div>
-          </div>
-            <h2 class="containertext">Our Services</h2>
-            <p class="paragraphtext text-center px-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum hasbeen theindustry's standard dummy text ever since the 1500s, when an unknow</p>
-            <div class="row  justify-content-evenly">
-                <div class="col-md-3 text-center">
-                    <img src="images/foodQuality.png" alt="" width="48px">
-                    <h2 class="headingtext">Quality Food</h2> 
-                    <p class="serviceparagraph  ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum hasbeen</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="images/set srvice.png" alt="">
-                    <h2 class="headingtext">Maintain Set Service Standards</h2> 
-                    <p class="serviceparagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum hasbeen</p>
-                </div>
-                <div class="col-md-3 text-center lastservices">
-                    <img src="images/tableturnovertime.png" alt="" width="65px">
-                    <h2 class="headingtext">Accelerate The Table 
-                        Turnover Time</h2> 
-                    <p class="serviceparagraph" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum hasbeen</p>
-                    <img class="topelem servicesline" id="containerbox" src="images/topshapes.svg" alt="" width="60%">
-                </div>
             </div>
-        <h2 class="containertext">
-            Our Chefs
-        </h2>
-        <div class="row">
-<div class="col-md-3">
-    <img src="images/chef1.png" alt="">
-    <h2 class="chefname"></h2>
-    <p class="chefdetail"></p>
-</div>
-<div class="col-md-3"></div>
-<div class="col-md-3"></div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$66</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$77</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$339</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$88</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$88</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$88</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$88</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/dish.png" alt="" />
+              <div class="fooddeatil">
+                <h2 class="foodname">Pizza</h2>
+                <img src="images/raitingicons.png" alt="" />
+                <h2 class="price">Price -$88</h2>
+              </div>
+            </div>
+          </div>
+          <div class="navigationslider">
+            <div class="swiper-button-prev">
+              <img src="images/leftslidenav.png" alt="" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="images/rightslidenav.png" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
+      <h2 class="containertext">Our Services</h2>
+      <p class="paragraphtext text-center px-5">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. LoremIpsum hasbeen theindustry's standard dummy text ever
+        since the 1500s, when an unknow
+      </p>
+      <div class="row justify-content-evenly">
+        <div class="col-md-3 text-center">
+          <img src="images/foodQuality.png" alt="" width="48px" />
+          <h2 class="headingtext">Quality Food</h2>
+          <p class="serviceparagraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. LoremIpsum hasbeen
+          </p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="images/set srvice.png" alt="" />
+          <h2 class="headingtext">Maintain Set Service Standards</h2>
+          <p class="serviceparagraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. LoremIpsum hasbeen
+          </p>
+          <img
+            class="serviceshapes servicesline"
+            id="containerbox"
+            src="images/topshapes.svg"
+            alt=""
+            width="50%"
+          />
+        </div>
+        <div class="col-md-3 text-center lastservices">
+          <img src="images/tableturnovertime.png" alt="" width="65px" />
+          <h2 class="headingtext">Accelerate The Table Turnover Time</h2>
+          <p class="serviceparagraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. LoremIpsum hasbeen
+          </p>
+          <!-- <img class="topelem servicesline" id="containerbox" src="images/topshapes.svg" alt="" width="60%"> -->
+        </div>
+      </div>
+      <h2 class="containertext">Our Chefs</h2>
+      <div class="row justify-content-between mt-5">
+        <div class="col-md-3 chefs">
+          <img src="images/chef1.png" alt="" />
+          <h2 class="chefname">Roy</h2>
+          <p class="chefdetail">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            convallis tempus nulla sed pellentesque. Cras eu est in ipsum tempus
+            cursus. Nulla nisl libero,
+          </p>
+        </div>
+        <div class="col-md-3 chefs">
+          <img src="images/chef1.png" alt="" />
+          <h2 class="chefname">Roy</h2>
+          <p class="chefdetail">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            convallis tempus nulla sed pellentesque. Cras eu est in ipsum tempus
+            cursus. Nulla nisl libero,
+          </p>
+        </div>
+        <div class="col-md-3 chefs">
+          <img src="images/chef1.png" alt="" />
+          <h2 class="chefname">Roy</h2>
+          <p class="chefdetail">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            convallis tempus nulla sed pellentesque. Cras eu est in ipsum tempus
+            cursus. Nulla nisl libero,
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="intoutext text-center">Get In Touch</h2>
+        <div class="col-md-7">
+          <form class="form" action="/action_page.php">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+              autofocus
+            />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required />
+            <label for="">Phone</label>
+            <input type="tel" placeholder="Mobile Number" required />
+            <label for="">Message</label>
+            <textarea
+              class="textmassage"
+              placeholder="Message"
+              required
+            ></textarea>
+            <input class="sumbitbtn" type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="col-md-5">
+          <iframe
+            class=""
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13773.853597224483!2d76.8603226!3d30.3377775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e440bfd7c03780!2sKanha%20Bakers!5e0!3m2!1sen!2sin!4v1657001440443!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div></div>
     </div>
-</div>
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
-     <script src="js/jquery.min.js" ></script>
-<script src="js/owl.carousel.min.js" ></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
-<!-- Initialize Swiper -->
-<script src="script.js">
-</script>
-</body>
+    <div class="row justify-content-between footer">
+      <div class="col-md-2">
+        <img src="images/foooterlogo.png" alt="" />
+      </div>
+      <div class="col-md-2">
+        <h2 class="footnavs">Categories</h2>
+        <ul>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h2 class="footnavs">Categories</h2>
+        <ul>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h2 class="footnavs">Categories</h2>
+        <ul>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h2 class="footnavs">Categories</h2>
+        <ul>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+          <li>Asin Food</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="script.js"></script>
+  </body>
 </html>

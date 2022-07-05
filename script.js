@@ -30,6 +30,7 @@ $(window).on('resize scroll', function(){
 
   
 })
+
   var swiper = new Swiper('.mySwiper', {
     // Default parameters
     slidesPerView: 2,
