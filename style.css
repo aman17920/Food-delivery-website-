@@ -3,7 +3,7 @@
 }
 
 .nav-link {
-    font-family: 'Maven Pro';
+    font-family: roboto;
     font-style: normal;
     font-weight: 400;
     color: #ffff !important;
@@ -490,6 +490,7 @@ li a:hover:after {
 }
 
 .form input {
+    font-family:roboto ;
     background: #FFFFFF;
     /* box-shadow: 8px 11px 21px rgba(96, 96, 96, 0.25); */
     border-radius: 10px;
@@ -709,7 +710,42 @@ color: #211F21;
 
 
   @media only screen and (max-width: 576px) {
-    body {
-      background-color: lightblue;
+   
+    .capsicum{
+        display: none;
     }
-  }
+    .vegetable{
+        display: none;
+    }
+    .tomatoe{
+        display: none;
+    }
+    .burger{
+        display: block;
+        top: 515px;
+        left: -44px;
+        width: 84%;
+    }
+    .topimg{
+      margin-top: 80px;
+    }
+    .pizza{
+        top: 604px;
+        width: 33%;
+        left: 61%;
+    }
+    .herotext{
+        font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFB703;
+}
+.topshapes{
+    display: none;
+}
+.herosection {
+    margin-top: 50px;
+}
+    }
