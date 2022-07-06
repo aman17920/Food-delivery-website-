@@ -54,8 +54,7 @@
 .herosection {
     margin-top: 238px;
     align-items: center;
-    padding-top: 0px !important;
-    max-height: 300px !important;
+    margin-bottom: 100px;
 }
 
 .topshap {
@@ -291,6 +290,21 @@
     z-index: -1;
     right: 222px;
 }
+.vegetable{
+    position: absolute;
+    top: 149px;
+    left: 13px;
+}
+.capsicum{
+    position: absolute;
+    top: 660px;
+    left: -37px;
+}
+.tomatoe{
+    position: absolute;
+    top: 215PX;
+    left: 323px;
+}
 
 .pizza {
     position: absolute;
@@ -323,6 +337,7 @@
     margin-bottom: 70px !important;
     padding-inline: 275px !important;
 }
+
 .dish {
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -345,7 +360,7 @@
 
 .servicesline {
     position: absolute;
-    top: 1559px;
+    top: 1471px;
     right: 0px;
     width: 15%;
 }
@@ -432,115 +447,232 @@ li a:hover:after {
     pointer-events: none;
     transition: width .3s, height .3s, opacity .3s;
 }
-.chefs{
-display: flex;
-flex-direction: column;
-align-items: center;
+
+.chefs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #FFFFFF;
-border: 3px solid #FFB703;
-    padding-inline:30px !important;
+    border: 3px solid #FFB703;
+    padding-inline: 30px !important;
     border-radius: 20px;
-    padding-block:30px ;
+    padding-block: 30px;
 }
-.chefname{
+
+.chefname {
     margin-bottom: 10px;
     margin-top: 14px;
     font-family: 'Rambla';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-color: #FFB703;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFB703;
 }
-.chefdetail{
+
+.chefdetail {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 147.5%;
-text-align: center;
-color: #211F21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 147.5%;
+    text-align: center;
+    color: #211F21;
 }
-.form{
+
+.form {
     border-radius: 29px;
-    padding-inline:40px ;
+    padding-inline: 40px;
     padding-block: 40px;
     background-color: #FFB703;
     display: flex;
     flex-direction: column;
-}.form input{
+}
+
+.form input {
     background: #FFFFFF;
     /* box-shadow: 8px 11px 21px rgba(96, 96, 96, 0.25); */
     border-radius: 10px;
-    border: 0px;padding-left: 10px;
+    border: 0px;
+    padding-left: 10px;
     height: 45px;
     margin-bottom: 20px;
 }
-.form label{
-padding-bottom: 10px;
 
-font-family: 'Rambla';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 17px;
-color: #FFFFFF;
+.form label {
+    padding-bottom: 10px;
+
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
 }
-.sumbitbtn{
-background-color: #FFB703 !important;
-border: 1px solid #fff !important;
-color: #ffffff;
-    box-shadow: 8px 11px 21px rgba(96, 96, 96, 0.25); 
+
+.sumbitbtn {
+    background-color: #FFB703 !important;
+    border: 1px solid #fff !important;
+    color: #ffffff;
+    box-shadow: 8px 11px 21px rgba(96, 96, 96, 0.25);
+    margin-top: 40px;
 
 }
-.textmassage{
+
+.textmassage {
     padding-top: 10px;
     background: #FFFFFF;
     border-radius: 10px;
-    border: 0px;padding-left: 10px;
+    border: 0px;
+    padding-left: 10px;
     margin-bottom: 20px;
+   
 }
+
+
 .textmassage:focus-visible {
     outline: 2px solid rgb(199, 199, 199) !important;
     border-radius: 10px !important;
 }
 
-.intoutext{
+.intoutext {
     margin-top: 100px;
     margin-bottom: 40px;
     font-family: 'Rambla';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 49px;
-color: #FFB703;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFB703;
 }
-.form   input:focus-visible {
+
+.form input:focus-visible {
     outline: 2px solid rgb(199, 199, 199);
     border-radius: 10px;
 }
+
 .form input::placeholder {
     color: #EEEDEC;
-    opacity: 1; 
-  }
- 
-  .textmassage::placeholder {
+    opacity: 1;
+}
+
+.textmassage::placeholder {
     color: #EEEDEC;
-    opacity: 1; 
-  }
-  .footer{
- background-color: #F9C74F;
-  }
-.footnavs{
+    opacity: 1;
+}
+
+
+
+.footnavs {
     font-family: 'Maven Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 30px !important;
     line-height: 24px;
-            color: #211F21;
+    color: #211F21;
 }
-ul{
+
+ul {
     list-style: none;
     padding-left: 0px;
 }
+
+.footer {
+    background-position: bottom;
+    padding-inline: 128px;
+    margin-top: 150px;
+    padding-top: 80px;
+    background-image: url(images/footerelem.svg);
+    background-color: #F9C74F;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer ul li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #211F21;
+    padding-bottom: 14px;
+}
+.CopyrightText{
+    margin-top: 263px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #211F21;
+}
+.formdesign{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.left-content {
+    .rectangle {
+      position: relative;
+      top:10px;
+      left:0;
+      animation-name: topleft;
+      animation-duration: 3s;
+      animation-timing-function:ease;
+      animation-iteration-count:infinite;
+      
+    }
+  }
+  
+  
+  
+  
+  @keyframes topleft {
+    0% {
+      top:10px;
+      left:0;
+    }
+    50% {
+      top:50px;
+      left:30px;
+    }
+    10% {
+      top:10px;
+      left:0;
+    }
+    
+  }
+  
+  @keyframes transform {
+    10% {
+      transform: translate(0px, 10px);
+    }
+    50% {
+      transform: translate(300px, 50px);
+    }
+    100% {
+      transform: translate(0px, 10px);
+    }
+  }
+  .leftshape{
+    position: absolute;
+    top: 1830px;
+    left: 0px;
+    width: 15%;
+  }
+  .ourservicesbox{
+    margin-bottom: 227px;
+  }
+  
