@@ -190,7 +190,9 @@
 .swiper-slide {
     position: relative;
 }
-
+.mobileimg{
+    display: none;
+}
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     display: none;
@@ -747,5 +749,64 @@ color: #211F21;
 }
 .herosection {
     margin-top: 50px;
+}
+.mobileimg{
+    display: block;
+    width: 100%;
+}
+.burger{
+    display: none;
+
+}
+.pizza{
+    display: none;
+}
+.topimg{
+    display: none;
+    width: 100%;
+}
+.cursor {
+    display: none;
+}
+.cursor2{
+display: none;
+}
+.herosection {
+    margin-bottom: 50px;
+}
+.ourmenutext {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.fooddeatil{
+    left: 66px;
+}
+.sliderbtn{
+    width: 180% !important;
+}
+.navigationslider{
+    position: absolute;
+    left: 50%;
+    padding-bottom: 78px;
+}
+.paragraphtext {
+    margin-bottom: 50px !important;
+    padding-inline: 0px !important; 
+    font-size: 16px;
+}
+.servicesline{
+display: none;
+}
+.leftshape{
+display: none;
+}
+.ourservicesbox{
+    margin-bottom: 100px;
+}
+.chefs{
+margin-bottom: 40px;
+}
+.footer {
+    padding-inline: 12px;
 }
     }
