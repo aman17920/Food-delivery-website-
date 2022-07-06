@@ -286,30 +286,30 @@
 
 .burger {
     position: absolute;
-    top: -69px;
+    top: -244px;
     z-index: -1;
     right: 222px;
 }
 .vegetable{
     position: absolute;
-    top: 149px;
-    left: 13px;
+    top: -152px;
+    left: 40px;
 }
 .capsicum{
     position: absolute;
-    top: 660px;
-    left: -37px;
+    top: 311px;
+    left: -99px;
 }
 .tomatoe{
     position: absolute;
-    top: 215PX;
+    top: -13PX;
     left: 323px;
 }
 
 .pizza {
     position: absolute;
-    right: 122px;
-    top: 242px;
+    right: 49px;
+    top: -41px;
 }
 
 .headingtext {
