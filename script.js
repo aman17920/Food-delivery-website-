@@ -53,7 +53,7 @@ $(window).on('resize scroll', function(){
       },
       // when window width is >= 640px
       640: {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 40
       }
     },

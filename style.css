@@ -24,16 +24,16 @@
 }
 
 .herotext {
-    font-family: 'Rambla';
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 80px;
     line-height: 93px;
     color: #FFB703;
 }
 
 .topparagraphtext {
-    font-family: 'Maven Pro';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -106,9 +106,9 @@
 
 .ourmenutext {
     margin-bottom: 49px;
-    font-family: 'Rambla';
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
     line-height: 49px;
     color: #FFB703;
