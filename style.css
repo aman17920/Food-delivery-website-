@@ -471,7 +471,7 @@ li a:hover:after {
 }
 
 .chefdetail {
-    font-family: 'Lato';
+    font-family: Lato;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -601,6 +601,7 @@ ul {
     padding-bottom: 14px;
 }
 .CopyrightText{
+    
     margin-top: 282px;
     font-family: 'Roboto';
 font-style: normal;
@@ -706,105 +707,7 @@ color: #211F21;
 
 
 
-
-
-
-
-
-
-
-  @media only screen and (max-width: 576px) {
-   
-    .capsicum{
-        display: none;
-    }
-    .vegetable{
-        display: none;
-    }
-    .tomatoe{
-        display: none;
-    }
-    .burger{
-        display: block;
-        top: 515px;
-        left: -44px;
-        width: 84%;
-    }
-    .topimg{
-      margin-top: 80px;
-    }
-    .pizza{
-        top: 604px;
-        width: 33%;
-        left: 61%;
-    }
-    .herotext{
-        font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 55px;
-    color: #FFB703;
-}
-.topshapes{
-    display: none;
-}
-.herosection {
-    margin-top: 50px;
-}
-.mobileimg{
-    display: block;
-    width: 100%;
-}
-
-
-.topimg{
-    width: 100%;
-}
-
-.cursor2{
-display: none;
-}
-.herosection {
-    margin-bottom: 50px;
-}
-.ourmenutext {
-    font-size: 30px;
-    margin-bottom: 24px;
-}
-.fooddeatil{
-    left: 66px;
-}
-.sliderbtn{
-    width: 247% !important;
-}
-.navigationslider{
-    position: absolute;
-    left: 50%;
-    padding-bottom: 78px;
-}
-.paragraphtext {
-    margin-bottom: 50px !important;
-    padding-inline: 0px !important; 
-    font-size: 16px;
-}
-.servicesline,.leftshape,.cursor, .topimg, .pizza, .burger{
-display: none;
-}
-
-.ourservicesbox{
-    margin-bottom: 100px;
-}
-.chefs{
-margin-bottom: 40px;
-}
-.footer {
-    padding-inline: 12px;
-}
-    }
-
-
-
+  
 
 /* Remove border from toggler */
 .navbar-toggler {
@@ -869,3 +772,130 @@ margin-bottom: 40px;
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #ffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 576px) {
+   
+    .capsicum{
+        display: none;
+    }
+    .vegetable{
+        display: none;
+    }
+    .tomatoe{
+        display: none;
+    }
+    .burger{
+        display: block;
+        top: 515px;
+        left: -44px;
+        width: 84%;
+    }
+    .topimg{
+      margin-top: 80px;
+    }
+    .pizza{
+        top: 604px;
+        width: 33%;
+        left: 61%;
+    }
+    .herotext{
+        font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFB703;
+}
+.topshapes{
+    display: none;
+}
+.herosection {
+    margin-top: 50px;
+}
+.mobileimg{
+    margin-left: -px;
+    display: block;
+    width: 100%;
+}
+
+
+.topimg{
+    width: 100%;
+}
+
+.cursor2{
+display: none;
+}
+.herosection {
+    margin-bottom: 50px;
+}
+.ourmenutext {
+    font-size: 26px;
+    margin-bottom: 24px;
+}
+.fooddeatil{
+    left: 76px;
+}
+.sliderbtn{
+    width: 247% !important;
+}
+.navigationslider{
+    position: absolute;
+    left: 50%;
+    padding-bottom: 78px;
+}
+.paragraphtext {
+    margin-bottom: 50px !important;
+    padding-inline: 0px !important; 
+    font-size: 16px;
+}
+.servicesline,.leftshape,.cursor, .topimg, .pizza, .burger{
+display: none;
+}
+
+.ourservicesbox{
+    margin-bottom: 100px;
+}
+.chefs{
+margin-bottom: 40px;
+}
+.footer {
+    padding-inline: 12px;
+}
+.CopyrightText{
+    margin-top: 40px;
+}
+.footer {
+    background-position: bottom;
+    margin-top: 150px;
+    padding-top: 80px;
+    background-image: none;
+    background-color: #F9C74F;
+    background-size: 83%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    width: 100%;
+}
+.containertext{
+ font-size: 26px;   
+}
+.intoutext{
+font-size: 26px;
+}
+.allservices{
+    margin-bottom: 26px;
+}
+    }
+
+
