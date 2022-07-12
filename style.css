@@ -13,9 +13,8 @@
 /* .nav-link:hover {
     color: rgb(56, 56, 56) !important;
 } */
-.modal-content{
+.modal-content {}
 
-}
 .navbar-collapse {
     flex-grow: 0 !important;
 }
@@ -24,14 +23,17 @@
     padding-right: 0.938rem;
     padding-left: 0.938rem;
 }
-.modal-content{
+
+.modal-content {
     background-color: #ffb603;
     border: 0px;
 }
-.modal-header{
+
+.modal-header {
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
+
 .herotext {
     font-family: 'Merienda', cursive;
     font-style: normal;
@@ -40,7 +42,8 @@ align-items: center;
     line-height: 93px;
     color: #FFB703;
 }
-.poptext{
+
+.poptext {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -48,6 +51,7 @@ align-items: center;
     font-size: 16px;
     color: #ffffff;
 }
+
 .topparagraphtext {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -207,9 +211,11 @@ align-items: center;
 .swiper-slide {
     position: relative;
 }
-.mobileimg{
+
+.mobileimg {
     display: none;
 }
+
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     display: none;
@@ -308,17 +314,20 @@ align-items: center;
     z-index: -1;
     right: 223px;
 }
-.vegetable{
+
+.vegetable {
     position: absolute;
     top: -152px;
     left: 40px;
 }
-.capsicum{
+
+.capsicum {
     position: absolute;
     top: 311px;
     left: -99px;
 }
-.tomatoe{
+
+.tomatoe {
     position: absolute;
     top: -13PX;
     left: 323px;
@@ -509,7 +518,7 @@ li a:hover:after {
 }
 
 .form input {
-    font-family:roboto ;
+    font-family: roboto;
     background: #FFFFFF;
     /* box-shadow: 8px 11px 21px rgba(96, 96, 96, 0.25); */
     border-radius: 10px;
@@ -522,7 +531,7 @@ li a:hover:after {
 
 .form label {
     padding-bottom: 10px;
-color: #211F21;
+    color: #211F21;
     font-family: 'Rambla';
     font-style: normal;
     font-weight: 400;
@@ -534,7 +543,7 @@ color: #211F21;
     background-color: #FFB703 !important;
     color: #ffff;
     margin-top: 40px;
-border: 0px;
+    border: 0px;
 }
 
 .textmassage {
@@ -544,7 +553,7 @@ border: 0px;
     border: 0px;
     padding-left: 10px;
     margin-bottom: 20px;
-   border: 1px solid #bfbfbf7d;
+    border: 1px solid #bfbfbf7d;
 }
 
 
@@ -617,16 +626,18 @@ ul {
     color: #211F21;
     padding-bottom: 14px;
 }
-.CopyrightText{
-    
+
+.CopyrightText {
+
     margin-top: 282px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-color: #211F21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #211F21;
 }
-.formdesign{
+
+.formdesign {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
@@ -644,87 +655,114 @@ color: #211F21;
 
 
 
-    .rectangle {
-      position: relative;
-      top:10px;
-      left:0;
-      animation-name: topleft;
-      animation-duration: 3s;
-      animation-timing-function:ease;
-      animation-iteration-count:infinite;
-      
-    }
-  
-  
-  
-  
-  
-  @keyframes topleft {
+.rectangle {
+    position: relative;
+    top: 10px;
+    left: 0;
+    animation-name: topleft;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+@keyframes topleft {
     0% {
-      top:10px;
-      left:0;
+        top: 10px;
+        left: 0;
     }
+
     50% {
-      top:50px;
-      left:30px;
+        top: 50px;
+        left: 30px;
     }
+
     10% {
-      top:10px;
-      left:0;
+        top: 10px;
+        left: 0;
     }
-    
-  }
-  
-  @keyframes transform {
+
+}
+
+@keyframes transform {
     10% {
-      transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
     }
+
     50% {
-      transform: translate(300px, 50px);
+        transform: translate(300px, 50px);
     }
+
     100% {
-      transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
     }
-  }
-  .leftshape{
+}
+
+.leftshape {
     position: absolute;
     top: 1874px;
     left: 0px;
     width: 15%;
-  }
-  .ourservicesbox{
+}
+
+.ourservicesbox {
     margin-bottom: 227px;
-  }
-  .pulse {
+}
+
+.pulse {
     animation: pulse 2s infinite ease-in-out alternate;
-  }
-  @keyframes pulse {
-    from { transform: scale(0.4); }
-    to { transform: scale(1.2); }
-  }
-  .tomatoes{
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.4);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.tomatoes {
     animation: pulse 1s infinite ease-in-out alternate;
 
-  }
-  @keyframes tomatoes {
-    from { transform: scale(0.8); }
-    to { transform: scale(1.2); }
-  }
-  .vegetables{
+}
+
+@keyframes tomatoes {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.vegetables {
     animation: pulse 1.6s infinite ease-in-out alternate;
 
-  }
-  @keyframes vegetables {
-    from { transform: scale(0.8); }
-    to { transform: scale(2); }
-  }
+}
+
+@keyframes vegetables {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
 
 
 
 
 
 
-  
+
 
 /* Remove border from toggler */
 .navbar-toggler {
@@ -740,7 +778,7 @@ color: #211F21;
 }
 
 /* Lines of the Toggler */
-.toggler-icon{
+.toggler-icon {
     width: 30px;
     height: 3px;
     background-color: #ffff;
@@ -749,7 +787,7 @@ color: #211F21;
 }
 
 /* Adds Space between the lines */
-.middle-bar{
+.middle-bar {
     margin: 5px auto;
 }
 
@@ -768,6 +806,7 @@ color: #211F21;
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
 }
+
 /* State when navbar is opened (END) */
 
 /* State when navbar is collapsed (START) */
@@ -783,51 +822,132 @@ color: #211F21;
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
 }
+
 /* State when navbar is collapsed (END) */
 
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #ffff;
 }
-.menuherotext{
-font-family:'Merienda', cursive  ;    
-font-size: 40px;
-color: #FFB703 ;
-text-align: center;
-margin-top: 80px;
-margin-bottom: 40px;
+
+.menuherotext {
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    color: #FFB703;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
-.menuhero{
+
+.menuhero {
     position: relative;
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
 }
-.menu-pizza{
+
+.menu-pizza {
     position: absolute;
     top: 137px;
     left: 159px;
 }
-.menu-burger{
+
+.menu-burger {
     position: absolute;
     top: 309px;
     right: 299px;
 }
-.hometext{
-    font-family: 'Rambla';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 116.38%;
-text-align: center;
-color: #FFB703;
+
+.hometext:hover {
+    border-bottom: solid#FFB703 2px;
 }
-.detailtext{
+
+.hometext {
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 116.38%;
+    text-align: center;
+    color: #FFB703;
+}
+
+.detailtext {
+    margin-top: 90px;
     justify-content: center;
     display: flex;
     align-items: baseline;
 }
 
+.menuleftshape {
+    position: absolute;
+    max-width: 100%;
+    top: 196px;
+    right: 0px;
+}
+
+.menurigtshape {
+    top: 400px;
+    max-width: 100%;
+    position: absolute;
+    left: 0px;
+    transform: scale(-1);
+}
+
+.menttext {
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 116.38%;
+    text-align: center;
+    color: #FFB703;
+    text-transform: uppercase;
+}
+
+.menubox {
+    background: #FFB703;
+    border-radius: 31px;
+    height: 342px;
+    padding-inline: 133px;
+    padding-block: 32px;
+}
+
+.bestQuality-text {
+    margin-block: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    color: #211F21;
+}
+.bestQuality-peragraph{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+margin-bottom: 20px;
+color: #8A6C00;
+    }
+.order-menu-btn{
+   color: #ffffff;
+    padding: 8px 20px;
+    border: 1px dashed #FFFFFF;
+    border-radius: 10px;
+    background-color: #211f2100;
+    border-style: dotted;
+}
+.bestQualityBOX{
+    background: #FFC535;
+box-shadow: -3px 8px 21px 2px rgba(230, 167, 10, 0.6);
+border-radius: 10px;
+padding-block:30px ;
+padding-inline: 18px;
+}
 
 
 
@@ -835,118 +955,156 @@ color: #FFB703;
 
 
 
-  @media only screen and (max-width: 576px) {
-   
-    .capsicum{
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .capsicum {
         display: none;
     }
-    .vegetable{
+
+    .vegetable {
         display: none;
     }
-    .tomatoe{
+
+    .tomatoe {
         display: none;
     }
-    .burger{
+
+    .burger {
         display: block;
         top: 515px;
         left: -44px;
         width: 84%;
     }
-    .topimg{
-      margin-top: 80px;
+
+    .topimg {
+        margin-top: 80px;
     }
-    .pizza{
+
+    .pizza {
         top: 604px;
         width: 33%;
         left: 61%;
     }
-    .herotext{
+
+    .herotext {
         font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 55px;
-    color: #FFB703;
-}
-.topshapes{
-    display: none;
-}
-.herosection {
-    margin-top: 50px;
-}
-.mobileimg{
-    margin-left: -px;
-    display: block;
-    width: 100%;
-}
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFB703;
+    }
 
+    .topshapes {
+        display: none;
+    }
 
-.topimg{
-    width: 100%;
-}
+    .herosection {
+        margin-top: 50px;
+    }
 
-.cursor2{
-display: none;
-}
-.herosection {
-    margin-bottom: 50px;
-}
-.ourmenutext {
-    font-size: 26px;
-    margin-bottom: 24px;
-}
-.fooddeatil{
-    left: 76px;
-}
-.sliderbtn{
-    width: 247% !important;
-}
-.navigationslider{
-    position: absolute;
-    left: 50%;
-    padding-bottom: 78px;
-}
-.paragraphtext {
-    margin-bottom: 50px !important;
-    padding-inline: 0px !important; 
-    font-size: 16px;
-}
-.servicesline,.leftshape,.cursor, .topimg, .pizza, .burger{
-display: none;
-}
-
-.ourservicesbox{
-    margin-bottom: 100px;
-}
-.chefs{
-margin-bottom: 40px;
-}
-.footer {
-    padding-inline: 12px;
-}
-.CopyrightText{
-    margin-top: 40px;
-}
-.footer {
-    background-position: bottom;
-    margin-top: 150px;
-    padding-top: 80px;
-    background-image: none;
-    background-color: #F9C74F;
-    background-size: 83%;
-    background-repeat: no-repeat;
-    margin-left: 0px;
-    width: 100%;
-}
-.containertext{
- font-size: 26px;   
-}
-.intoutext{
-font-size: 26px;
-}
-.allservices{
-    margin-bottom: 26px;
-}
+    .mobileimg {
+        margin-left: -px;
+        display: block;
+        width: 100%;
     }
 
 
+    .topimg {
+        width: 100%;
+    }
+
+    .cursor2 {
+        display: none;
+    }
+
+    .herosection {
+        margin-bottom: 50px;
+    }
+
+    .ourmenutext {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+
+    .fooddeatil {
+        left: 76px;
+    }
+
+    .sliderbtn {
+        width: 247% !important;
+    }
+
+    .navigationslider {
+        position: absolute;
+        left: 50%;
+        padding-bottom: 78px;
+    }
+
+    .paragraphtext {
+        margin-bottom: 50px !important;
+        padding-inline: 0px !important;
+        font-size: 16px;
+    }
+
+    .servicesline,
+    .leftshape,
+    .cursor,
+    .topimg,
+    .pizza,
+    .burger {
+        display: none;
+    }
+
+    .ourservicesbox {
+        margin-bottom: 100px;
+    }
+
+    .chefs {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-inline: 12px;
+    }
+
+    .CopyrightText {
+        margin-top: 40px;
+    }
+
+    .footer {
+        background-position: bottom;
+        margin-top: 150px;
+        padding-top: 80px;
+        background-image: none;
+        background-color: #F9C74F;
+        background-size: 83%;
+        background-repeat: no-repeat;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containertext {
+        font-size: 26px;
+    }
+
+    .intoutext {
+        font-size: 26px;
+    }
+
+    .allservices {
+        margin-bottom: 26px;
+    }
+}
