@@ -789,10 +789,44 @@ color: #211F21;
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #ffff;
 }
-
-
-
-
+.menuherotext{
+font-family:'Merienda', cursive  ;    
+font-size: 40px;
+color: #FFB703 ;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+.menuhero{
+    position: relative;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+}
+.menu-pizza{
+    position: absolute;
+    top: 137px;
+    left: 159px;
+}
+.menu-burger{
+    position: absolute;
+    top: 309px;
+    right: 299px;
+}
+.hometext{
+    font-family: 'Rambla';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 116.38%;
+text-align: center;
+color: #FFB703;
+}
+.detailtext{
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+}
 
 
 
