@@ -155,3 +155,29 @@ a.forEach(item => {
 
 
 
+
+
+
+
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function incrementValue() {
+  var value = parseInt(document.getElementById("number").value);
+  value = isNaN(value) ? 0 : value;
+  value++;
+  document.getElementById("number").value = value;
+}
+function decreaseValue() {
+  var value = parseInt(document.getElementById("number").value);
+  value = isNaN(value) ? 0 : value;
+  value--;
+  document.getElementById("number").value = value;
+}

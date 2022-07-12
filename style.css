@@ -876,6 +876,7 @@ ul {
     margin-top: 90px;
     justify-content: center;
     display: flex;
+    margin-bottom: 30px;
     align-items: baseline;
 }
 
@@ -948,11 +949,124 @@ border-radius: 10px;
 padding-block:30px ;
 padding-inline: 18px;
 }
+.foodbtn{
+    width: 118px;
+    height: 49px;
+    left: 454px;
+    top: 1375px;
+    background: #FFB704;
+    border-radius: 24.5px;
+    border: 0px;
 
+    
+}
+.mycard{
+    padding-inline: 298px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.delieciousmenu-text{
+    font-family: 'Merienda', cursive;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+font-size: 40px;
+line-height: 116.38%;
+color: #FFB704;
+}
+.menucard-darent{
+    border: 1px dashed #FFB704;
+border-radius: 20px;
+border-style: dotted;
+}
+.menucard{
+margin-left: 10px;
+}
+.fooditeam-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+text-transform: uppercase;
+color: #646364;
+margin-bottom:10px ;
+}
+.foodingredients{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+margin-bottom:10px ;
+font-size: 16px;
+line-height: 116.38%;
+color: #686666;
+}
+.mainbx-fooditeam{
+    margin-top: 75px;
+}
+.vegtext{
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    color: #000000;
+    margin-bottom:0px ;
 
+}
+.additeambtn-card{
+    display: flex;
+}
 
-
-
+.additeambox{
+    background-color: #F5F5F5;
+    border:  1px solid#D2D2D2;
+    border-radius: 5px;
+    width: 74px;
+    margin-left: 44px;
+    display: flex;
+}
+.additeamnumber{
+    border: 0px;
+    background-color: #f0f8ff00;
+    font-size: 16px;
+}.additem{
+    font-size: 16px;
+    border: 0px;
+    width: 21px;
+    background-color: #2b8b0800;
+}
+.menucard{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.menuparent-box{
+    background: #FFF1CF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-inline: 50px;
+    padding-block: 30px;
+}
+.for-borderbox{
+    border: 1px dashed #FFB704;
+border-radius: 20px;
+padding:10px;
+}
+.food-price{
+    margin-bottom: 10px;
+    font-family:roboto;
+font-weight: 400;
+font-size: 16px;
+color: #686666;
+}
+.foood-rating{
+    margin-bottom: 10px;
+}
 
 
 
