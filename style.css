@@ -36,6 +36,7 @@
 
 .herotext {
     font-family: 'Merienda', cursive;
+
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -1100,7 +1101,7 @@ border: 0px;
 .bleft{
     width: 6%;
     position: absolute;
-    top: 1500px;
+    top: 1200px;
     left: 0px;
 }
 .for-borderbox{
@@ -1199,7 +1200,7 @@ position: relative;
     }
 
     .herotext {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Merienda', cursive;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
