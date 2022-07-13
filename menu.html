@@ -81,6 +81,8 @@
   </nav>
   <img class="menuleftshape" src="images/menu-leftshape.png" alt="">
   <img class="menurigtshape" src="images/menu-leftshape.png" alt="">
+  <img class="snadwich" src="images/sandwich.png" alt="">
+  <img class="bleft"  src="images/bleft.png" alt="">
   <div class="container">
     <div class="row">
       <div id="containerbox" class="col-md-12">
@@ -122,7 +124,7 @@
       </div>
       <div class="col-md-4">
         <div class="bestQualityBOX">
-          <img src="images/icon/menutherdicon.svg" alt="" width="35%">
+          <img src="images/icon/menutherdicon.svg" alt="" width="28%">
           <h2 class="bestQuality-text">100% Best Quality</h2>
           <p class="bestQuality-peragraph">
             We Provide Best Quality Food
@@ -134,10 +136,55 @@
     <h2 class="delieciousmenu-text">Deliceious Menu</h2>
     <div class="row ">
       <div class="mycard">
+        <input
+        type="radio"
+        class="btn-check "
+        name="btnradio"
+        id="btnradio1"
+        autocomplete="off"
+        checked
+      />
+      <label class="btn btn-outline-primary foodbtn" for="btnradio1"
+        >Pizza</label
+      >
+
+      <input
+        type="radio"
+        class="btn-check "
+        name="btnradio"
+        id="btnradio2"
+        autocomplete="off"
+      />
+      <label class="btn btn-outline-primary foodbtn" for="btnradio2"
+        >SALTS</label
+      >
+      <input
+      type="radio"
+      class="btn-check "
+      name="btnradio"
+      id="btnradio3"
+      autocomplete="off"
+      checked
+    />
+    <label class="btn btn-outline-primary foodbtn" for="btnradio3"
+      >CHICKEN</label
+    >
+
+    <input
+      type="radio"
+      class="btn-check  "
+      name="btnradio"
+      id="btnradio4"
+      autocomplete="off"
+    />
+    <label class="btn btn-outline-primary  foodbtn" for="btnradio4"
+      >BURGER</label
+    >
+<!--     
         <button class="foodbtn">PIZZA</button>
-        <button class="foodbtn">BURGER</button>
-        <button class="foodbtn">SALTS</button>
-        <button class="foodbtn">CHICKEN</button>
+        <button class=" foodbtn">BURGER</button>
+        <button class="foodbtn"></button>
+        <button class="foodbtn"></button> -->
       </div>
     </div>
     <div class="row mainbx-fooditeam">
@@ -146,11 +193,11 @@
           <div class="menuparent-box">
             <img src="images/menupizza-img.png" alt="">
             <div class="menucard">
-              <h2 class="fooditeam-name">Chesse Pizza</h2>
+              <h2 class="fooditeam-name">Cheese Pizza</h2>
               <p class="foodingredients">
                 Extra-virgin olive oil, garlic, mozzarella cheese
               </p>
-              <p class="food-price">Price: $39.00 $50.00 </p>
+              <p class="food-price">Price: $39.00 <span style="text-decoration-line: line-through;">$50.00 </span></p>
               <img class="foood-rating" src="images/menucard-rating.svg" alt="">
               <div class="additeambtn-card">
                 <div class="additeambtn-card">
@@ -161,7 +208,7 @@
                     <h2 class="vegtext">veg</h2>
                   </div>
                 </div>
-                <!-- <div class="additeambox">
+               <div class="additeambox">
               <button
                 class="additeamnumber"
                 onclick="decreaseValue()"
@@ -177,7 +224,7 @@
               >
                 +
               </button>
-            </div> -->
+            </div>
               </div>
             </div>
           </div>
@@ -192,7 +239,7 @@
               <p class="foodingredients">
                 Extra-virgin olive oil, garlic, mozzarella cheese
               </p>
-              <p class="food-price">Price: $39.00 $50.00 </p>
+              <p class="food-price">Price: $39.00 <span style="text-decoration-line: line-through;">$50.00 </span> </p>
               <img class="foood-rating" src="images/menucard-rating.svg" alt="">
               <div class="additeambtn-card">
                 <div class="additeambtn-card">
@@ -203,7 +250,7 @@
                     <h2 class="vegtext">veg</h2>
                   </div>
                 </div>
-                <!-- <div class="additeambox">
+            <div class="additeambox">
               <button
                 class="additeamnumber"
                 onclick="decreaseValue()"
@@ -219,13 +266,100 @@
               >
                 +
               </button>
-            </div> -->
+            </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="for-borderbox">
+          <div class="menuparent-box">
+            <img src="images/menupizza-img.png" alt="">
+            <div class="menucard">
+              <h2 class="fooditeam-name">Chesse Pizza</h2>
+              <p class="foodingredients">
+                Extra-virgin olive oil, garlic, mozzarella cheese
+              </p>
+              <p class="food-price">Price: $39.00 <span style="text-decoration-line: line-through;">$50.00 </span> </p>
+              <img class="foood-rating" src="images/menucard-rating.svg" alt="">
+              <div class="additeambtn-card">
+                <div class="additeambtn-card">
+                  <div style="
+              display: flex;
+              align-items: center;">
+                    <img src="images/vagicon.svg" alt="">
+                    <h2 class="vegtext">veg</h2>
+                  </div>
+                </div>
+            <div class="additeambox">
+              <button
+                class="additeamnumber"
+                onclick="decreaseValue()"
+                value="Decrease"
+              >
+                -
+              </button>
+              <input class="additem" id="number" value="0" />
+              <button
+                class="additeamnumber"
+                onclick="incrementValue()"
+                value="Increase"
+              >
+                +
+              </button>
+            </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="for-borderbox">
+          <div class="menuparent-box">
+            <img src="images/menupizza-img.png" alt="">
+            <div class="menucard">
+              <h2 class="fooditeam-name">Chesse Pizza</h2>
+              <p class="foodingredients">
+                Extra-virgin olive oil, garlic, mozzarella cheese
+              </p>
+              <p class="food-price">Price: $39.00 <span style="text-decoration-line: line-through;">$50.00 </span> </p>
+              <img class="foood-rating" src="images/menucard-rating.svg" alt="">
+              <div class="additeambtn-card">
+                <div class="additeambtn-card">
+                  <div style="
+              display: flex;
+              align-items: center;">
+                    <img src="images/vagicon.svg" alt="">
+                    <h2 class="vegtext">veg</h2>
+                  </div>
+                </div>
+            <div class="additeambox">
+              <button
+                class="additeamnumber"
+                onclick="decreaseValue()"
+                value="Decrease"
+              >
+                -
+              </button>
+              <input class="additem" id="number" value="0" />
+              <button
+                class="additeamnumber"
+                onclick="incrementValue()"
+                value="Increase"
+              >
+                +
+              </button>
+            </div>  
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="web-ad-banner">
+    <button class="banner-btn">Order Now</button>
   </div>
   </div>
   <script src="js/jquery.min.js"></script>
