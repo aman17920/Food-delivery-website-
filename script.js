@@ -183,3 +183,7 @@ function decreaseValue() {
 }
 
 
+//right click//
+// $(document).bind("contextmenu",function(e){
+//   return false;
+//     });
