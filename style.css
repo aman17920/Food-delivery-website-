@@ -1225,9 +1225,9 @@ position: relative;
     }
 
     .mobileimg {
-        margin-left: -px;
         display: block;
-        width: 100%;
+    width: 114%;
+    margin-left: -99px;
     }
 
 
