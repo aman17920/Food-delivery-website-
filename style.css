@@ -1,9 +1,10 @@
 .search-box {
      display: flex;
+     padding: 0px;
      background: #2f364000;
      border-radius: 40px;
      padding-inline: 13px;
-     border: solid #ffffff 1px;
+     /* border: solid #ffffff 1px; */
      flex-direction: row;
      align-items: center;
      justify-content: center;
