@@ -1209,13 +1209,14 @@ position: relative;
     }
 
     .topshapes {
-        display: block;
+        /* display: block;
         position: absolute;
         top: 614px;
         z-index: -4;
         left: 0px;
         width: 41%;
-        transform: scalex(-1);
+        transform: scalex(-1); */
+        display: none;
     }
     
 
@@ -1227,7 +1228,7 @@ position: relative;
     .mobileimg {
         display: block;
     width: 114%;
-    margin-left: -99px;
+    margin-left: -77px;
     }
 
 
