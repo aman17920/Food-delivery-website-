@@ -1539,3 +1539,26 @@ margin-bottom: 6px;
         position: relative;
     }
 }
+
+
+
+
+@media only screen and (max-width: 1880px) {
+    .web-ad-banner{
+        height: 575px;  
+    }
+    .banner-btn{
+        background-color: #FFB704;
+        border: 0px;
+        color: #000000;
+        border-radius: 100px;
+        top: 415px;
+        font-family: roboto;
+        font-size: 24px;
+        font-weight: 600;
+        position: absolute;
+        padding-block: 11px;
+        padding-inline: 34px;
+        left: 710px;
+    }
+}
