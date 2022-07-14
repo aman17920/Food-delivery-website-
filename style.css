@@ -1545,20 +1545,20 @@ margin-bottom: 6px;
 
 @media (min-width : 576px) and (max-width : 1880px) {
     .web-ad-banner{
-        height: 575px;  
+        height: 439px;  
     }
     .banner-btn{
         background-color: #FFB704;
         border: 0px;
         color: #000000;
         border-radius: 100px;
-        top: 415px;
+        top: 342px;
         font-family: roboto;
         font-size: 24px;
         font-weight: 600;
         position: absolute;
         padding-block: 11px;
         padding-inline: 34px;
-        left: 710px;
+        left: 559px;
     }
 }
