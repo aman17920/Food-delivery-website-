@@ -1143,6 +1143,7 @@ color: #686666;
     display: flex;
     align-items: center;
     justify-content: center ;
+    border: 0px;
         }
         .btn-outline-primary:hover{
             background-color: #FFB704;
@@ -1166,7 +1167,7 @@ border: 0px;
 }
 .snadwich{
     position: absolute;
-    top: 2000px;
+    top: 1177px;
     right: 0px;
     width: 15%;
 }
@@ -1174,7 +1175,8 @@ border: 0px;
 background-image: url("images/Food-Web-Banner.png");
 width: 100%;
 background-size: cover;
-height: 571px;
+margin-top: 40px;
+height: 436px;
 position: relative;
 }
 .banner-btn:hover{
@@ -1406,5 +1408,49 @@ position: relative;
 padding-inline: 20px;
 height: auto !important;
     }
+    .bestQualityBOX{
+        margin-bottom: 20px;
+    }
+    .mycard{
+        padding-inline: 0px;
+    }
+    .banner-btn{
+        display: none;
+    }
+    .mycard{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding-inline:     50px;
+    }
+    .foodbtn{
+        margin-bottom: 10px;
+    }
+    .menuparent-box {
+        background: #FFF1CF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline: 20px;
+    padding-block: 30px;
+    flex-direction: column;
+    }
+    .menucard {
+        margin-top: 24px;
+    }
+    .bleft {
+        width: 9%;
+        position: absolute;
+        top: 1699px;
+        left: 0px;
+    }
+    .snadwich {
+        position: absolute;
+        top: 1846px;
+        right: 0px;
+        width: 15%;
+    }
     
+    .snadwi
 }
