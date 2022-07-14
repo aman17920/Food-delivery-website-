@@ -1438,6 +1438,7 @@ padding-inline:     50px;
     }
     .menucard {
         margin-top: 24px;
+        margin-left: 0px;
     }
     .bleft {
         width: 9%;
@@ -1446,11 +1447,27 @@ padding-inline:     50px;
         left: 0px;
     }
     .snadwich {
-        position: absolute;
-        top: 1846px;
-        right: 0px;
-        width: 15%;
-    }
-    
-    .snadwi
+    position: absolute;
+    top: 1846px;
+    right: 0px;
+    width: 15%;
+}
+
+.menubox{
+    border-radius: 0px;
+
+}
+.foodingredients{
+    margin-bottom: 6px;
+} 
+.food-price{
+    margin-bottom: 6px;
+}
+/* .foood-rating{
+margin-bottom: 6px;
+    width: 0%;
+} */
+.additeambtn-card{
+    align-items: flex-start;
+}
 }
