@@ -1534,7 +1534,7 @@ margin-bottom: 6px;
         background-image: url(images/Food-Web-Banner.png);
         width: 100%;
         background-size: contain;
-        height: 133px;
+        height: 113px;
         margin-top: 40px;
         position: relative;
     }
@@ -1543,7 +1543,7 @@ margin-bottom: 6px;
 
 
 
-@media only screen and (max-width: 1880px) {
+@media (min-width : 576px) and (max-width : 1880px) {
     .web-ad-banner{
         height: 575px;  
     }
